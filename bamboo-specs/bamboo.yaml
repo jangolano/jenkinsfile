@@ -1,0 +1,12 @@
+project:
+  key: DRAGON
+  plan:
+    key: SLAYER
+    name: Dragon Slayer Quest
+dockerImage: postgres
+stages:
+  - jobs:
+    - scripts:
+      - echo 'Job 1'
+    - scripts:
+      - echo 'Job 2'
